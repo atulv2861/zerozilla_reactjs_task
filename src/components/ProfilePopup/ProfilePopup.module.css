@@ -1,0 +1,27 @@
+.modalStyle {
+    position: fixed;
+    top: 50px;   
+    right: 50px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modalContentStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background: white;   
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+
+.Link{
+    text-decoration: none;
+    color: black;
+}

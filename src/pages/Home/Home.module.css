@@ -1,0 +1,28 @@
+.Container{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;  
+    align-items: center;
+}
+
+.Products{
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;  
+    align-items: center;  
+}
+
+.Category{
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.Image{
+    width: 200px;
+    height: 300px;
+    align-items: center;
+}
