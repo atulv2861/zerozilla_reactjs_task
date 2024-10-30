@@ -23,9 +23,9 @@ function App() {
       <Header cartCount={cartCount} handleSearchResult={handleSearchResult}/>
       <Routes>
         <Route path="/" exact element={<Home setProductDetails={setProductDetails} searchResults={searchResults}  setSearchResults={setSearchResults}/>}/>        
-        <Route path="/carts" element={<Cart/>} />
+        {/*<Route path="/carts" element={<Cart/>} />*/}
         <Route path="/product/:id" element={<ProductDetail productDetails={productDetails} addToCart={addToCart} />} />
-        <Route path="/profiles" element={<Profile/>} />
+        {/* <Route path="/profiles" element={<Profile/>} /> */}
         <Route path="*" element={<PageNotFound/>} />
       </Routes>
     </Router>

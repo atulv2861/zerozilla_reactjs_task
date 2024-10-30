@@ -24,7 +24,7 @@ function Header({ cartCount,handleSearchResult }) {
       <h3 onClick={e=>handleClick(e)} className={Style.Heading}>E-commerce App</h3>
       <nav className={Style.Nav}>        
         <Search handleSearchResult={handleSearchResult}/>
-        <Link className={Style.CartLink} to="/cart">Cart ({cartCount})</Link>        
+        <Link className={Style.CartLink} to="#">Cart ({cartCount})</Link>        
         <img className={Style.Profile} onClick={e=>{handleProfilePopupOpen(e)}} src={Avatar} alt="Profile"/>
       </nav>
     </header>
